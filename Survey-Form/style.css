@@ -15,7 +15,11 @@ body {
     margin:0 auto;
     padding-bottom: 8px;
     background-color:rgba(0,0,128,1);
-    color:#ffffff
+    color:#ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   h1, p {
@@ -26,6 +30,7 @@ body {
   fieldset {
     border:none;
     padding:0.5rem 0;
+    
   }
   
   label {
@@ -56,3 +61,10 @@ body {
     background-color:#3b3b4f;
     color:#ffffff;
   }
+
+  .form-group {
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 6px;
+  }  
