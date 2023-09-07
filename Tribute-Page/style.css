@@ -1,0 +1,8 @@
+#image {
+    display:block;
+    max-width: 100%;
+  }
+
+h1, #tribute-info {
+    text-align: center;
+}
