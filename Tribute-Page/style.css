@@ -1,8 +1,20 @@
 #image {
     display:block;
+    width: 800px;
+    height: auto;
     max-width: 100%;
+    margin: 20px auto;
   }
 
-h1, #tribute-info {
+h1, #tribute-info, #img-caption {
     text-align: center;
+}
+
+body {
+    background-color: #87CEEB;
+}
+
+#img-div {
+    background-color: #ffffff;
+    padding: 10px 0;
 }
