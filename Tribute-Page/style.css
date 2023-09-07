@@ -12,6 +12,7 @@ h1, #tribute-info, #img-caption, #timeline > p{
 
 body {
     background-color: #87CEEB;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #img-div {
@@ -33,3 +34,21 @@ body {
     width: 850px;
     margin: 4px auto;
 }
+
+#footnote {
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    padding: 16px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+#quote {
+    width: 850px;
+    margin: 4px auto;
+    
+}
+
