@@ -6,7 +6,7 @@
     margin: 20px auto;
   }
 
-h1, #tribute-info, #img-caption {
+h1, #tribute-info, #img-caption, #timeline > p{
     text-align: center;
 }
 
@@ -17,4 +17,19 @@ body {
 #img-div {
     background-color: #ffffff;
     padding: 10px 0;
+}
+
+#timeline > p, .bold{
+    font-weight: bold;
+}
+
+#container > ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#container {
+    width: 850px;
+    margin: 4px auto;
 }
